@@ -9,5 +9,7 @@ To deploy via glue and `wasme`:
 Currently kranos supports the following headears:
 * `X-XSS_Protection: 1`  [X-XSS-Protection](https://wiki.owasp.org/index.php/OWASP_Secure_Headers_Project#xxxsp)
 
+WASM Hub Link:
+https://webassemblyhub.io/repositories/174/kronos
 
 For more information on security headers see [OWASP Secure Headers Project](https://wiki.owasp.org/index.php/OWASP_Secure_Headers_Project)
