@@ -6,10 +6,13 @@ To deploy via glue and `wasme`:
 `wasme deploy gloo webassemblyhub.io/haggs/kronos:v0.2 --id=kronos`
 
 ## Features
-Currently kranos supports the following headears:
+Currently kranos supports the following headers:
 * `X-XSS_Protection: 1`  [X-XSS-Protection](https://wiki.owasp.org/index.php/OWASP_Secure_Headers_Project#xxxsp)
 
-WASM Hub Link:
+
+## Reference
+
+WASM Hub Link:  
 https://webassemblyhub.io/repositories/174/kronos
 
 For more information on security headers see [OWASP Secure Headers Project](https://wiki.owasp.org/index.php/OWASP_Secure_Headers_Project)
