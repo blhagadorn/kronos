@@ -1,5 +1,5 @@
-# Kranos
-Kranos is a WASM filter for Envoy intended to add header security inspired by [HelmetJS](https://helmetjs.github.io/) when serving content to the browser with response headers.  
+# Kronos
+Kronos is a WASM filter for Envoy intended to add header security inspired by [HelmetJS](https://helmetjs.github.io/) when serving content to the browser with response headers.  
 
 ## Installation
 To deploy via glue and `wasme`:   
