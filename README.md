@@ -17,5 +17,5 @@ https://webassemblyhub.io/repositories/174/kronos
 
 For more information on security headers see [OWASP Secure Headers Project](https://wiki.owasp.org/index.php/OWASP_Secure_Headers_Project)
 
-To test your website for remediation I recommend the [Key CDN HTTP Header Checker Tool](https://tools.keycdn.com/curl).
+To test your website for remediation I recommend the [Key CDN HTTP Header Checker Tool](https://tools.keycdn.com/curl) or comprehensively grade your website with: https://securityheaders.com/
 
