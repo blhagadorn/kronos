@@ -2,8 +2,10 @@
 Kronos is a WASM filter for Envoy intended to add header security inspired by [HelmetJS](https://helmetjs.github.io/) when serving content to the browser with response headers.  
 
 ## Installation
-To deploy via glue and `wasme`:   
+To deploy via gloo and `wasme`:   
 `wasme deploy gloo webassemblyhub.io/haggs/kronos:v0.2 --id=kronos`
+via istio and `wasme`:  
+`wasme deploy istio webassemblyhub.io/haggs/kronos:latest --id=kronos`
 
 ## Features
 Currently kronos supports the following headers:
