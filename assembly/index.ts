@@ -26,6 +26,9 @@ class AddHeader extends Context {
     const root_context = this.root_context;
     if (root_context.configuration == "") {
       stream_context.headers.response.add('X-XSS-Protection', '1');
+      stream_context.headers.response.add('X-Frame-Options', 'SAMEORIGIN');		
+      stream_context.headers.response.add('X-Content-Type-Options', 'nosniff');		
+      stream_context.headers.response.add('X-Download-Options', 'noopen');		
     }
     return FilterHeadersStatusValues.Continue;
   }
