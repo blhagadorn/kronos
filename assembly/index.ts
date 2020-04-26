@@ -34,4 +34,4 @@ class AddHeader extends Context {
   }
 }
 
-registerRootContext(() => { return RootContextHelper.wrap(new AddHeaderRoot()); }, "add_header");
+registerRootContext(() => { return RootContextHelper.wrap(new AddHeaderRoot()); }, "kronos");
