@@ -10,10 +10,10 @@ via istio and `wasme`:
 ## Features
 Currently kronos supports the following headers:
 * `X-XSS_Protection: 1`  [X-XSS-Protection](https://wiki.owasp.org/index.php/OWASP_Secure_Headers_Project#xxxsp)
-* `X-Frame-Options: SAMEORIGIN`
-* `X-Content-Type-Options: nosniff`
+* `X-Frame-Options: SAMEORIGIN`  [X-Frame-Options](https://wiki.owasp.org/index.php/OWASP_Secure_Headers_Project#xfo)
+* `X-Content-Type-Options: nosniff`  [X-Content-Type-Options](https://wiki.owasp.org/index.php/OWASP_Secure_Headers_Project#xcto)
 * `X-Download-Options: noopen`
-* `Strict-Transport-Security: max-age=5184000`
+* `Strict-Transport-Security: max-age=5184000`. [Strict Transport Security](https://wiki.owasp.org/index.php/OWASP_Secure_Headers_Project#hsts)
 
 
 ## Reference
