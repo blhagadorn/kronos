@@ -1,0 +1,10 @@
+apiVersion: wasme.io/v1
+kind: FilterDeployment
+metadata:
+  name: bookinfo-kronos
+spec:
+  deployment:
+    istio:
+      kind: Deployment
+  filter:
+    image: webassemblyhub.io/haggs/kronos:latest
