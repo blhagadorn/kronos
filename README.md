@@ -7,7 +7,7 @@ To deploy via gloo and `wasme`:
 via istio and `wasme`:  
 `wasme deploy istio webassemblyhub.io/haggs/kronos:latest --id=kronos`
 
-Alternatively you can apply the FilterDeployment resource (see the example folder for an idea on what this would look like)
+Alternatively you can apply the FilterDeployment resource (see [example FilterDeployment](example/filterdeployment.yaml])
 
 ## Features
 Currently kronos supports the following headers:
