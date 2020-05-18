@@ -1,5 +1,5 @@
 # Kronos Example
-
+This example is for creating a simple WASM filter for the BookInfo example.
 
 1. Create a Kubernetes cluster
 2. Install the WASME CRD's  
