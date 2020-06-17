@@ -13,7 +13,7 @@ Alternatively you can apply the FilterDeployment resource (see [example FilterDe
 See an example with detailed instructions in the [example](example) directory.  
 
 ## Features
-Currently kronos supports the following headers:
+Currently Kronos supports the following headers:
 * `X-XSS_Protection: 1`  [X-XSS-Protection](https://wiki.owasp.org/index.php/OWASP_Secure_Headers_Project#xxxsp)
 * `X-Frame-Options: SAMEORIGIN`  [X-Frame-Options](https://wiki.owasp.org/index.php/OWASP_Secure_Headers_Project#xfo)
 * `X-Content-Type-Options: nosniff`  [X-Content-Type-Options](https://wiki.owasp.org/index.php/OWASP_Secure_Headers_Project#xcto)
